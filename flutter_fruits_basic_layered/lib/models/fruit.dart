@@ -1,4 +1,4 @@
-import 'nutrition.dart';
+import 'nutrition_model.dart';
 
 class Fruit {
   final int id;
