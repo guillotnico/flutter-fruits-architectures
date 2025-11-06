@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import '../../../../core/error/failures.dart';
 import '../../../../core/usecases/usecase.dart';
-import '../entities/fruit.dart';
-import '../repositories/fruit_repository.dart';
+import '../models/fruit.dart';
+import '../repositories/fruit_repository_impl.dart';
 
 class GetAllFruits implements UseCase<List<Fruit>, NoParams> {
   final FruitRepository repository;

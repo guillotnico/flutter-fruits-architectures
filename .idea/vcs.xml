@@ -3,6 +3,5 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/flutter_fruits_clean_architecture" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/flutter_fruits_clean_architecture_bloq" vcs="Git" />
   </component>
 </project>

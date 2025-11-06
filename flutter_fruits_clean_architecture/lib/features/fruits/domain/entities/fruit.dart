@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'nutrition.dart';
+import 'nutrition_model.dart';
 
 class Fruit extends Equatable {
   final int id;
