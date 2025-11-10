@@ -21,3 +21,7 @@ class Fruit extends Equatable {
   @override
   List<Object> get props => [id, name, family, order, genus, nutritions];
 }
+
+
+
+class test exte
