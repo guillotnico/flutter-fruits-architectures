@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart'; // 1. Importer Riverpod
+import 'package:get/get.dart';
+import 'features/fruits/presentation/bindings/fruit_binding.dart';
 import 'features/fruits/presentation/pages/fruits_page.dart';
 
 void main() {
-  runApp(
-    const ProviderScope(
-      child: MyApp(),
-    ),
-  );
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -15,13 +12,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Fruits Clean Architecture Riverpod',
+    return GetMaterialApp(
+      title: 'Flutter Fruits Clean Architecture GetX',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.green,
         useMaterial3: true,
       ),
+      initialBinding: FruitBinding(),
       home: const FruitsPage(),
     );
   }
